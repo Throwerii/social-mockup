@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    
+}
+.bluebox{
+    background-color: blue;
+    height: 500px;
+    width: 850px;
+    margin: 0 auto;
+}
+.header{
+    height: 100px;
+    width: 100px;
+    color: white;
+}
+.photo{
+    border: 2px solid black;
+    height: 170px;
+    width: 170px;
+    position:relative;
+    top: 330px;
+}
+.navbar{
+    height: 1000 px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: grey;
+    position: relative;
+    float: left;
+}
+
+.photo{
+    border-radius: 2%;
+}
