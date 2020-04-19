@@ -44,11 +44,31 @@ li{
 }
 
 .other{
+    padding: 2px;
     position: relative;
     top: 150px;
     left: 600px;
 }
-
+.link{background-color:#dfe3ee;
+    border: 2px solid black;
+    border-radius: 20%;
+    height: auto;
+    width: auto;
+    padding: 2px;}
+.follow{background-color:#dfe3ee;
+    border: 2px solid black;
+    border-radius: 20%;
+    height: auto;
+    width: auto;
+    padding: 2px;
+}
+.messages{background-color:#dfe3ee;
+    border: 2px solid black;
+    border-radius: 20%;
+    height: auto;
+    width: auto;
+    padding: 2px;
+}    
 .photo{
     border-radius: 2%;
 }
