@@ -18,7 +18,7 @@
     height: 170px;
     width: 170px;
     position:relative;
-    top: 330px;
+    top: 335px;
     z-index: 1;
 }
 h1{
@@ -31,44 +31,50 @@ h2{
     top: 150px;
     left: 200px;
 }
-li{
-    float: left;
-    padding: 2px;
-    list-style-type: none; 
-} 
+
 .bar{
     height: 1000 px;
     width: 850px;
     background-color:#8b9dc3; 
-    margin: 0 auto; 
+    margin: 0 auto;
+    position: relative;
 }
-
+ li{
+    display: inline;
+    margin-left: 30px;
+    list-style-type: none; 
+}
 .other{
     padding: 2px;
     position: relative;
     top: 150px;
     left: 600px;
 }
-.link{background-color:#dfe3ee;
-    border: 2px solid black;
-    border-radius: 20%;
-    height: auto;
-    width: auto;
-    padding: 2px;}
-.follow{background-color:#dfe3ee;
-    border: 2px solid black;
-    border-radius: 20%;
-    height: auto;
-    width: auto;
-    padding: 2px;
-}
-.messages{background-color:#dfe3ee;
-    border: 2px solid black;
-    border-radius: 20%;
-    height: auto;
-    width: auto;
-    padding: 2px;
-}    
 .photo{
     border-radius: 2%;
+}
+.Address{
+    height: auto;
+    width: 328px;
+    background-color: #f7f7f7;
+    border: 2px solid black;
+    margin: 0 auto;
+    position: relative;
+    float: left;
+
+}
+.info{
+    height: auto;
+    width: 512px;
+    background-color: #f7f7f7;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+}
+.column{
+    position: relative;
+    left: 130px;
+    top: 50px;
 }
